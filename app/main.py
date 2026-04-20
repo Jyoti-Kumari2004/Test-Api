@@ -1,7 +1,6 @@
 from fastapi import FastAPI, APIRouter
 import uvicorn
-from routes import eventParticipationRoutes
-from routes import eventRoutes, participantRoutes
+from .routes import eventParticipationRoutes, eventRoutes, participantRoutes
 
 
 app = FastAPI()

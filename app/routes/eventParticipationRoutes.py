@@ -1,8 +1,8 @@
 from fastapi import FastAPI, APIRouter, HTTPException
-from repos.eventRepo import EventRepo
-from repos.participationRepo import ParticipationRepo
-from services.eventParticipationService import EventParticipationService
-from repos.eventParticipationRepo import EventParticipationRepo
+from ..repos.eventRepo import EventRepo
+from ..repos.participationRepo import ParticipationRepo
+from ..services.eventParticipationService import EventParticipationService
+from ..repos.eventParticipationRepo import EventParticipationRepo
 
 router = APIRouter()
 

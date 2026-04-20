@@ -1,5 +1,5 @@
-from models.event import Event
-from repos.eventRepo import EventRepo
+from ..models.event import Event
+from ..repos.eventRepo import EventRepo
 
 
 class EventService:

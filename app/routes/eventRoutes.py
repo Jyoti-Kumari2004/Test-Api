@@ -1,9 +1,9 @@
 from fastapi import FastAPI, APIRouter, HTTPException
-from models.event import Event
-from services.eventService import EventService
+from ..models.event import Event
+from ..services.eventService import EventService
 from fastapi.encoders import jsonable_encoder
 from mysql.connector import Error
-from repos.eventRepo import EventRepo
+from ..repos.eventRepo import EventRepo
 
 eventRepo = EventRepo()
 eventService = EventService(eventRepo)

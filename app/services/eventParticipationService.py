@@ -1,6 +1,6 @@
-from repos.eventRepo import EventRepo
-from repos.participationRepo import ParticipationRepo
-from repos.eventParticipationRepo import EventParticipationRepo
+from ..repos.eventRepo import EventRepo
+from ..repos.participationRepo import ParticipationRepo
+from ..repos.eventParticipationRepo import EventParticipationRepo
 
 
 class EventParticipationService:

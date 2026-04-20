@@ -1,9 +1,9 @@
 from fastapi import FastAPI, APIRouter, HTTPException
-from models.participant import Participant
-from services.userService import UserService
+from ..models.participant import Participant
+from ..services.userService import UserService
 from fastapi.encoders import jsonable_encoder
 from mysql.connector import Error
-from repos.participationRepo import ParticipationRepo
+from ..repos.participationRepo import ParticipationRepo
 
 userRepo = ParticipationRepo()
 userService = UserService(userRepo)

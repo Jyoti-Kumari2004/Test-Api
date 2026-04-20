@@ -1,5 +1,5 @@
-from models.participant import Participant
-from repos.participationRepo import ParticipationRepo
+from ..models.participant import Participant
+from ..repos.participationRepo import ParticipationRepo
 
 
 class UserService:

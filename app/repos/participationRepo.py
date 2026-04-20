@@ -1,7 +1,7 @@
 from sqlalchemy import text
 from .baseRepo import BaseRepo
 from sqlalchemy import create_engine
-from models.participant import Participant
+from ..models.participant import Participant
 from mysql.connector import Error
 
 
